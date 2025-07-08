@@ -1,2 +1,18 @@
-# Entorno virtual de Python
-/venv/
+# Ignorar entorno virtual
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de logs y bases de datos
+*.log
+*.sqlite3
+
+# Archivos de configuración personal
+.env
+.DS_Store
+
+# Archivos de VSCode (opcional)
+.vscode/
